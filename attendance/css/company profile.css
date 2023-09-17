@@ -1,0 +1,372 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.box1 {
+    position: relative;
+    color: #EBEBEB;
+    width: 85%;
+    height: 60px;
+    left: 8.5rem;
+    top: -8rem;
+    flex-shrink: 0;
+    background: rgba(235, 235, 235, 0.58);
+}
+
+.img {
+    position: relative;
+    top: 0rem;
+    left: 2rem;
+    height: 3.5rem;
+    width: auto;
+}
+
+body {
+    min-height: 100vh;
+}
+
+li {
+    list-style: none;
+}
+
+.side-bar {
+    position: relative;
+    background: #092847;
+    width: 15vw;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    top: -50rem;
+}
+
+.side-bar li {
+    font-size: 20px;
+    padding: 15px;
+    color: #EBEBEB;
+    display: flex;
+    align-items: center;
+    font-family: Poppins;
+
+}
+
+.side-bar li a {
+    text-decoration: none;
+    color: #EBEBEB;
+}
+
+.side-bar li:hover {
+    /* background: white; */
+    color: #cbdbec;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    left: 1rem;
+    top: -0.5rem;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+h3 {
+    position: relative;
+    top: -3rem;
+    left: 30rem;
+    font-size: 2rem;
+    color: #092847;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.search-container {
+    position: relative;
+    display: inline-block;
+    top: -5.5rem;
+    left: 45rem;
+    display: flex;
+    width: 266px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    /* border-radius: 2rem; */
+    /* Material Design Shadows/1 */
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.20), 0px 0.10000000149011612px 0.30000001192092896px 0px rgba(0, 0, 0, 0.10);
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.search-input {
+    padding: 10px 40px 10px 30px;
+    border: 1px solid #ccc;
+
+    font-size: 16px;
+    outline: none;
+}
+
+
+.round-image1 {
+    position: relative;
+    height: 2rem;
+    width: 2rem;
+    object-fit: cover;
+}
+
+.man1 {
+    position: relative;
+    left: 78rem;
+    width: 2rem;
+    height: 2rem;
+    top: -10rem;
+    border-radius: 62px;
+}
+
+.clockin {
+    position: relative;
+    right: -55rem;
+    top: -1.5rem;
+    width: 9rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    background: #EBEBEB;
+    box-shadow: 0px 9px 4px 0px rgba(0, 0, 0, 0.15);
+    border: none;
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+h5 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    left: 7rem;
+    top: .9rem;
+}
+
+.content {
+    background: url("../img/f15e0fdc3c87c48847f76b02adb9c9a4\ 1.svg");
+    width: 1300px;
+    height: 600px;
+    flex-shrink: 0;
+    position: relative;
+    left: 13.5rem;
+    background-repeat: no-repeat;
+    top: -8rem;
+}
+
+.box2 {
+    background: url("../img/white-unsplash-9d0375d2\ 1.svg");
+    position: relative;
+    width: 900px;
+    height: 600px;
+    left: 7rem;
+    top: 2rem;
+    background-repeat: no-repeat;
+}
+
+.box3 {
+    background: url("../img//white-unsplash-9d0375d2\ 3.svg");
+    position: relative;
+    width: 900px;
+    height: 130px;
+    left: 7rem;
+    top: -16rem;
+    background-repeat: no-repeat;
+}
+
+.social {
+    position: relative;
+    top: 3.5rem;
+    left: 2rem;
+}
+
+.line {
+    position: relative;
+    top: 2.5rem;
+    width: 900px;
+    height: 1px;
+    background: #000;
+}
+
+
+.line2 {
+    position: relative;
+    left: 0rem;
+    top: 1rem;
+    width: 900px;
+    height: 1px;
+    background: #000;
+}
+
+p {
+    position: relative;
+    left: 72rem;
+    top: -8rem;
+}
+
+p2 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+}
+
+p1 {
+    position: relative;
+    top: 0.9rem;
+    left: 2.5rem;
+    color: #000;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+p3 {
+    position: relative;
+    top: 2.5rem;
+    left: 2rem;
+    color: #000;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+p4 {
+    position: relative;
+    top: 4.5rem;
+    left: -14.3rem;
+    color: #000;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p5 {
+    position: relative;
+    top: 2.5rem;
+    left: 2rem;
+    color: #000;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+p6 {
+    position: relative;
+    top: 4.5rem;
+    left: -13.5rem;
+    color: #000;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.line3 {
+    position: relative;
+    left: 0rem;
+    top: 7rem;
+    width: 900px;
+    height: 1px;
+    background: #000;
+}
+
+p7{
+    position: relative;
+    top: 9.3rem;
+    left: 2rem;
+    color: #000;
+font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+p8{
+        position: relative;
+        top: 11rem;
+        left: -12.3rem;
+        color: #000;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+p9{
+    position: relative;
+    top: 9.5rem;
+    left: 0rem;
+    color: #000;
+font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+p10{
+    position: relative;
+    top: 11.3rem;
+    left: -5rem;
+    color: #000;
+font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}

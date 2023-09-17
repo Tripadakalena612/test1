@@ -1,0 +1,264 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.box1 {
+    position: relative;
+    color: #EBEBEB;
+    width: 85%;
+    height: 60px;
+    left: 13rem;
+    top: -8rem;
+    flex-shrink: 0;
+    background: rgba(235, 235, 235, 0.58);
+}
+
+.img {
+    position: relative;
+    top: 0rem;
+    left: 2rem;
+    height: 3.5rem;
+    width: auto;
+}
+
+body {
+    min-height: 100vh;
+}
+
+li {
+    list-style: none;
+}
+
+.side-bar {
+    position: relative;
+    background: #092847;
+    width: 17vw;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    top: -82.5rem;
+}
+
+.side-bar li {
+    font-size: 20px;
+    padding: 15px;
+    color: #EBEBEB;
+    display: flex;
+    align-items: center;
+    font-family: Poppins;
+
+}
+
+.side-bar li a {
+    text-decoration: none;
+    color: #EBEBEB;
+}
+
+.side-bar li:hover {
+    /* background: white; */
+    color: #cbdbec;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    left: 1rem;
+    top: -0.5rem;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+h3 {
+    position: relative;
+    top: -3rem;
+    left: 30rem;
+    font-size: 2rem;
+    color: #092847;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.search-container {
+    position: relative;
+    display: inline-block;
+    top: -5.5rem;
+    left: 45rem;
+    display: flex;
+    width: 266px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+    /* Material Design Shadows/1 */
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.20), 0px 0.10000000149011612px 0.30000001192092896px 0px rgba(0, 0, 0, 0.10);
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.search-input {
+    padding: 10px 40px 10px 30px;
+    border: 1px solid #ccc;
+
+    font-size: 16px;
+    outline: none;
+}
+
+p{
+    position: relative;
+    left: 72rem;
+    top: -8rem;
+}
+.round-image1 {
+    position: relative;
+    height: 2rem;
+    width: 2rem;
+    object-fit: cover;
+}
+
+.man1 {
+    position: relative;
+    left: 78rem;
+    width: 2rem;
+    height: 2rem;
+    top: -10rem;
+    border-radius: 62px;
+}
+
+.clockin {
+    position: relative;
+    right: -55rem;
+    top: -1.5rem;
+    width: 9rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    background: #EBEBEB;
+    box-shadow: 0px 9px 4px 0px rgba(0, 0, 0, 0.15);
+    border: none;
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+h5 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    left: 7rem;
+    top: .9rem;
+}
+
+.content{
+        background: url("../img/f15e0fdc3c87c48847f76b02adb9c9a4\ 1.svg");
+        width: 1400px;
+        background-repeat: no-repeat;
+        height: 600px;
+        flex-shrink: 0;
+        position: relative;
+        left: 15rem;
+        top: -8rem;
+}
+
+/* styles.css */
+
+table {
+    position: relative;
+    top: -45rem;
+    left: 22rem;
+    width: 65%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    background-color: #FFF;
+    margin-top: 20px;
+    border-collapse: separate; /* Use separate border model */
+    border-spacing: 0 10px; /* Set spacing between rows (vertical horizontal) */
+}
+
+td {
+    padding: 0px;
+    text-align: center;
+    
+    /* width: 994px;
+height: 100px; */
+flex-shrink: 0;
+/* background: rgba(217, 217, 217, 0.40); */
+/* border-right: 1px solid #ccc; Add this line */
+}
+
+th:last-child, td:last-child {
+    /* border-right: none; Remove the border on the last column */
+}
+
+
+th {
+    padding: 10px;
+    text-align: center;
+    /* border-right: 1px solid #ccc; Add this line */
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+th {
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    /* background-color: #f2f2f2; */
+}
+
+.table td {
+    /* border: 1px solid #ccc; */
+    /* padding: 10px; */
+    /* text-align: left; */
+}
+
+.image-cell img {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+/* 
+.name-cell {
+    padding-left: 0px;
+} */

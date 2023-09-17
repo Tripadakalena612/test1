@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/hr1.css">
+</head>
+
+<body>
+    <section class="section-profile">
+        <div class="container1">
+            <div class="box">
+                <!-- <p>Click on the Menu Icon to transform it to "X":</p> -->
+                <div class="container" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+
+                <img src="img/rnk-01 1.svg" class="img">
+                <h3> Hi Muskan!</h3>
+                <div class="search-container">
+                    <div class="search-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <path
+                                d="M14.774 13.212a8.5 8.5 0 1 0-1.562 1.562l3.607 3.607a1 1 0 0 0 1.415-1.414l-3.607-3.607zm-6.274 0a6.5 6.5 0 1 1 6.274-6.274A6.507 6.507 0 0 1 8.5 13.212z" />
+                        </svg>
+                    </div>
+                    <input type="text" class="search-input" placeholder="Search Employees...">
+                </div>
+                <div class="user">
+                    <p>Muskan sen<br>
+                        User Profile
+                    </p>
+                    <div class="round-image1">
+                        <img src="img/man.jfif" class="man1">
+                    </div>
+                </div>
+                <div class="line"></div>
+            </div>
+        </div>
+
+        <div class="box1">
+            <h5>Assign Task</h5>
+            <button class="clockin" role="button">Clock-In</button>
+        </div>
+        <div class="content">
+           <div class="box3"><p id="txt2">Task</p>
+            <img src="img/iconamoon_profile-fill.svg" style="position: relative;
+            left: 6rem;
+            top: -1rem;"></div>
+           <a href="p2.html"><button class="add"><img src="img/Group 1261152805.svg" class="a-image">Add New Project</button></a>
+           <a href="#"><button class="plus"><img src="img/Group 1261152805.svg" class="a-image">Add Members</button></a>
+           <input type="button" name="Assign" role="button" value="Assign" class="btn1">
+            <input type="text" value="" name="text" class="text">
+        </div>
+        <div class="side-bar">
+            <ul>
+                <li><a href="dashborad.html"><img src="img/material-symbols_dashboard.svg"> &nbsp;Dashboard</a></li>
+                <li><a href="company profile.html"><img src="img/Vector (1).svg">&nbsp;Company profile</a></li>
+                <li><a href="profile.html"><img src="img/iconamoon_profile-circle-fill.svg">&nbsp;My profile</a></li>
+                <li><a href="emp.html"><img src="img/clarityEmployeeGroupSolid0.svg">&nbsp;Employees</a></li>
+                <li><a href="project.html"><img src="img/eos-icons_project.svg">&nbsp;Project</a></li>
+                <li><a href="#"><img src="img/simple-line-icons_calender.svg">&nbsp;Calander</a></li>
+                <li><a href="at.html"><img src="img/material-symbols_co-present-rounded.svg">&nbsp;Attandance</a></li>
+                <li><a href="request.html"><img src="img/Group.svg">&nbsp;Request leave</a></li>
+                <li><a href="task.html"><img src="img/material-symbols_task.svg">&nbsp;Task</a></li>
+            </ul>
+        </div>
+
+
+
+    </section>
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+    </script>
+</body>
+
+</html>
